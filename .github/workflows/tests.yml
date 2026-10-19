@@ -1,0 +1,16 @@
+name: Portable source checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  unit-tests:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s 00_Reference/Scripts -p "test_*.py" -v

@@ -1,0 +1,16 @@
+/00_Reference/Tools/
+/00_Reference/Downloads/
+/00_Reference/include/
+/00_Reference/Docs/
+/00_Reference/Templates/Official_C/
+/00_Reference/Templates/Vendor_Makefile/
+/00_Reference/Templates/*_Validated/
+/00_Reference/Validation/
+/02_Projects/
+/toolchain.local.json
+/Setup_Verification.json
+/OpenSource_Release/
+/dist/
+**/OBJ/
+**/__pycache__/
+*.pyc

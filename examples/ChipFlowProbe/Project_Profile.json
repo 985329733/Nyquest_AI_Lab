@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "chip": "NY8A051F",
+  "configuration": {
+    "Id": "NY8A051F",
+    "HighOsc": "IRC",
+    "LowOsc": "IRC",
+    "IrcFreq": "FREQ_4",
+    "InstructionClock": "Clock4",
+    "Wdt": "ENABLE",
+    "WdtEvent": "Reset",
+    "WdtTimeBase": "Ms15",
+    "LvrSetting": "AlwaysOn",
+    "LvrVoltage": "V16",
+    "PowerOnClock": "High",
+    "ReadIoSource": "FromRegister",
+    "Pins": [
+      {
+        "Port": "PB",
+        "Bit": 0,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 1,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 2,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 3,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 4,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 5,
+        "Type": "BIDIR"
+      }
+    ]
+  },
+  "clock": {
+    "oscillator_hz": 4000000,
+    "instruction_divider": 4
+  },
+  "behavior": {
+    "required_checks": [
+      "Counter initialized",
+      "Watchdog enabled in software",
+      "Counter wraps as an 8-bit value",
+      "Hardware stack bound respected",
+      "PORTB safe latch",
+      "PORTB direction"
+    ]
+  }
+}

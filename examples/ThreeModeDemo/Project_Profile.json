@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "chip": "NY8B062D",
+  "configuration": {
+    "Id": "NY8B062D",
+    "HighOsc": "IRC",
+    "LowOsc": "IRC",
+    "IrcFreq": "FREQ_4",
+    "InstructionClock": "Clock4",
+    "Wdt": "ENABLE",
+    "WdtEvent": "Reset",
+    "WdtTimeBase": "Ms250",
+    "LvrSetting": "RegisterControl",
+    "LvrVoltage": "V24",
+    "PowerOnClock": "High",
+    "ReadIoSource": "FromRegister",
+    "Pins": [
+      {
+        "Port": "PA",
+        "Bit": 0,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PA",
+        "Bit": 1,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PA",
+        "Bit": 2,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PA",
+        "Bit": 3,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PA",
+        "Bit": 4,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PA",
+        "Bit": 5,
+        "Type": "RESET"
+      },
+      {
+        "Port": "PA",
+        "Bit": 6,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PA",
+        "Bit": 7,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 0,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 1,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 2,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 3,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 4,
+        "Type": "BIDIR"
+      },
+      {
+        "Port": "PB",
+        "Bit": 5,
+        "Type": "BIDIR"
+      }
+    ]
+  },
+  "clock": {
+    "oscillator_hz": 4000000,
+    "instruction_divider": 4
+  },
+  "behavior": {
+    "required_checks": [
+      "Boot off enters sleep after stable release",
+      "Sleep leaves PA0 pullup and disables PWM ADC comparator RFC WDT",
+      "Press selects mode 1 and LED mask 6",
+      "Hold in mode 1 causes no repeat",
+      "Press selects mode 2 and LED mask 5",
+      "Hold in mode 2 causes no repeat",
+      "Press selects mode 3 and LED mask 3",
+      "Hold in mode 3 causes no repeat",
+      "Press selects mode 0 and LED mask 7",
+      "Hold in mode 0 causes no repeat",
+      "Fourth press sleeps only after release",
+      "Wake press selects mode 1 without a second press",
+      "Key held at boot does not turn on",
+      "Boot held key works after a stable release",
+      "Alternating bounce shorter than 30 ms does not switch",
+      "Stable press after bounce switches once",
+      "Release bounce cannot rearm a held key",
+      "Timer1 is exactly 625 counts and prescaler 16",
+      "At 299.99 seconds mode remains on",
+      "At 300.00 seconds auto-off enters sleep",
+      "An operation resets the full five-minute timeout",
+      "Five minutes after the last operation shuts down",
+      "Application plus interrupt stack depth remains at most two",
+      "Long press emits one PRESS and one LONG, no SHORT",
+      "Short press emits one PRESS and SHORT with UP",
+      "ISR restores ACC STATUS FSR PCHBUF inside a live key function",
+      "Observed main-call plus interrupt uses exactly two stack levels"
+    ],
+    "tick_period_us": 10000
+  },
+  "timer": {
+    "name": "Timer1",
+    "reload": 624,
+    "prescaler": 16
+  }
+}

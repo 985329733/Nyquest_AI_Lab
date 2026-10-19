@@ -1,0 +1,38 @@
+{
+  "chip": "NY8A051F",
+  "datasheet": "00_Reference/Docs/NY8A051F_v1.5.pdf",
+  "datasheet_sha256": "16ff2ebd608ee3bf88304dac545784fc437c9276539702230e254c094ac8d404",
+  "source_url": "https://www.nyquest.com.tw/upload/2021_07_073/NY8A051F_v1.5.pdf",
+  "rom_words": 1024,
+  "ram_bytes": 48,
+  "stack": 8,
+  "checksum_reserved_words": 2,
+  "r_page_address_bits": 6,
+  "model": "small.v2",
+  "gpio_input_masks": {
+    "PORTB": 0
+  },
+  "adc": "无ADC（手册功能表及头文件核对）",
+  "pwm": "1路8位，PB2；与BZ1复用",
+  "quotes": [
+    {
+      "page": 7,
+      "text": "8 層程式堆棧(Stack)"
+    },
+    {
+      "page": 8,
+      "text": "48 bytes SRAM"
+    },
+    {
+      "page": 12,
+      "text": "0x3FE~0x3FF"
+    },
+    {
+      "page": 13,
+      "text": "FSR[5:0]"
+    }
+  ],
+  "stack_page": 7,
+  "reserved_page": 12,
+  "reason": "本地有专用头文件、cfg、GPIO官方完整工程和公开官方数据手册；用于流程试跑，不代表用户已选型。"
+}

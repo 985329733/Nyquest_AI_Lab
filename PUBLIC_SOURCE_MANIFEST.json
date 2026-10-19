@@ -1,0 +1,382 @@
+[
+  {
+    "path": ".gitattributes",
+    "bytes": 19,
+    "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+  },
+  {
+    "path": ".github/workflows/tests.yml",
+    "bytes": 419,
+    "sha256": "f1005527a4fdd81b9aa48ec0ce20b138974941505008969b8aff6d4cd1f26e44"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 348,
+    "sha256": "ca018ed14337acf09ed5e3f948a6ef5bb2b7c3e104d676f1621a15d7b31a5e16"
+  },
+  {
+    "path": "00_Reference/Chip_Config/Chip_Evidence/NY8A051F.json",
+    "bytes": 987,
+    "sha256": "6c8e885432b0e00f79e42d510d5b4665b3cbdbb339ce635839d992b0cae52c09"
+  },
+  {
+    "path": "00_Reference/Chip_Config/chips.json",
+    "bytes": 13725,
+    "sha256": "202b415fd0dd9349ffba2dd7b423571b1cc61280ad3cd7bab3ad17b656c98989"
+  },
+  {
+    "path": "00_Reference/Chip_Config/qualifications.json",
+    "bytes": 1468,
+    "sha256": "87aae0e8c996fcd92e480d44ba5aeaa060c41d94215fcff974c94a647c7f689f"
+  },
+  {
+    "path": "00_Reference/Chip_Specs.md",
+    "bytes": 8552,
+    "sha256": "5171f17e52b3c9ec622733c6786c5dd79572a459ece0624e91c2654e71339b0e"
+  },
+  {
+    "path": "00_Reference/Scripts/Configure-FromProfile.ps1",
+    "bytes": 1776,
+    "sha256": "c860108875e2549443e83772bfa72c3525be858271c9925706062911821fe283"
+  },
+  {
+    "path": "00_Reference/Scripts/Inspect-Configuration.ps1",
+    "bytes": 2696,
+    "sha256": "bc240b1b37ef081155922966a88bb74783490781e5de9b7c8bfb9eba8c707b33"
+  },
+  {
+    "path": "00_Reference/Scripts/add_chip.py",
+    "bytes": 12865,
+    "sha256": "7bad9823e06095729433ebdd8d397fb4d4e2ab15c04fd423aff8a570b86e5b95"
+  },
+  {
+    "path": "00_Reference/Scripts/backup_base.py",
+    "bytes": 3425,
+    "sha256": "bf6372da79491d7bb29d0817f0288ec6741723a85afde64e5fa77adfe537d608"
+  },
+  {
+    "path": "00_Reference/Scripts/build_project.py",
+    "bytes": 7320,
+    "sha256": "8bb4c863139503e959a3cb66853733ed45a54c198465390a626995a08accda6f"
+  },
+  {
+    "path": "00_Reference/Scripts/cpu_model.py",
+    "bytes": 5231,
+    "sha256": "02624dfbbaeb070cfcfdf1cbc75a4622163544bc6b56b87491534861d39df5e3"
+  },
+  {
+    "path": "00_Reference/Scripts/export_source.py",
+    "bytes": 5090,
+    "sha256": "a73b586dfa27acf4965f6c85a79e118ce617e5f2d278e33adf6fc6408bce7fdf"
+  },
+  {
+    "path": "00_Reference/Scripts/integration_checks.py",
+    "bytes": 3694,
+    "sha256": "a2a86e9ebdc3f7d329d4c56ec4882c6c2124224e99221224e439ebd0f03499e8"
+  },
+  {
+    "path": "00_Reference/Scripts/materialize_references.py",
+    "bytes": 5218,
+    "sha256": "34ffc9d53471f19fedf0c138231ceda5b30d730d264cd02f9f9d6b5ce53d2991"
+  },
+  {
+    "path": "00_Reference/Scripts/package_demo.py",
+    "bytes": 2511,
+    "sha256": "3862afe2bbd0cad5b5b1ff825a6fe6bdac6a89573c9ac44b9c1df700bb33546f"
+  },
+  {
+    "path": "00_Reference/Scripts/project_info.py",
+    "bytes": 2649,
+    "sha256": "c417648443effab1dae0cdff835ee9c48531afddaa6e219234b5587947aa9dba"
+  },
+  {
+    "path": "00_Reference/Scripts/project_paths.py",
+    "bytes": 2507,
+    "sha256": "ba6d513329abda8839b0011f8d076db59b5cb343e7b5ddb04be1aac521f3d172"
+  },
+  {
+    "path": "00_Reference/Scripts/setup_workspace.py",
+    "bytes": 3314,
+    "sha256": "0b5e95a2b4a4aeeda3682d78f8878aed2ccd6daa872609fd0867c6b11ed3279a"
+  },
+  {
+    "path": "00_Reference/Scripts/test_contract.py",
+    "bytes": 4423,
+    "sha256": "76f33cf4d067d6f94f38b158e21789bd65f401c3f43b582f0b7536a8575d8fd6"
+  },
+  {
+    "path": "00_Reference/Scripts/test_validation.py",
+    "bytes": 2095,
+    "sha256": "30a52e3a02905587a70a91f3bf3f2f3f1149d895a938ff0535987617b6c000e0"
+  },
+  {
+    "path": "00_Reference/Scripts/toolchain.py",
+    "bytes": 993,
+    "sha256": "362954da1e70a35ebafd54f5773be3cfca6e341f07008d7713af1def81144fc7"
+  },
+  {
+    "path": "00_Reference/Scripts/verification_contract.py",
+    "bytes": 7437,
+    "sha256": "92b8166334ae6cf142601d91eb0c5f1023208f79bfa18bbdbd761068d65bbe00"
+  },
+  {
+    "path": "00_Reference/Scripts/verify_artifacts.py",
+    "bytes": 6053,
+    "sha256": "22bc0df30ac809f1de37e0db27fd8b0af0f932f9138c5635e44d602d266dcf80"
+  },
+  {
+    "path": "00_Reference/Scripts/verify_demo.py",
+    "bytes": 376,
+    "sha256": "97dbe405568fd7497299aa316c67d9d9d37f5b83c73ce3241dcd877f261c8abb"
+  },
+  {
+    "path": "00_Reference/Scripts/verify_modules.py",
+    "bytes": 3381,
+    "sha256": "2e126de382a1018f00408d5b0392d3c772e7b1c6d7cb1594b7fd91c25aafa173"
+  },
+  {
+    "path": "00_Reference/Templates/Bench_Test_Checklist.md",
+    "bytes": 5013,
+    "sha256": "c32a531cb6a4709a4d6dcd2ae06216942e9627f525af6d1b044944425e436e70"
+  },
+  {
+    "path": "00_Reference/Templates/Idle_Probe_Behavior.py",
+    "bytes": 1186,
+    "sha256": "fe3143ca4afc88e8dfd3dcc096bb71705e9270a6ce94ddd0ae43a636ecb5f5a8"
+  },
+  {
+    "path": "00_Reference/Templates/Product_Requirement_Template.md",
+    "bytes": 2565,
+    "sha256": "ee05fb09d0db7aee62a42d30e753ebf8d530f38cce7f3be08d505476c6b1e3c5"
+  },
+  {
+    "path": "01_Modules/ADC_Battery_LowPower.c",
+    "bytes": 2636,
+    "sha256": "527e448ec9606fc809a18517a9f616bfa278024e51c28dfda4ed93015b3ec6c5"
+  },
+  {
+    "path": "01_Modules/Buzzer_Alerts.c",
+    "bytes": 746,
+    "sha256": "d2f7497be4782712a52a1f610992b229f40db36c8b2efde0767de43ee3faab4a"
+  },
+  {
+    "path": "01_Modules/Charge_Status.c",
+    "bytes": 948,
+    "sha256": "97f11d69ee6d0df3d83ab68d34dc4f916a89860e8199c09c69fc48ae80e95de6"
+  },
+  {
+    "path": "01_Modules/Key_Scan_Debounce.c",
+    "bytes": 1724,
+    "sha256": "623e5968ae902b58d50c2e3d7703bd39cfd4836c4d865299c35aa12922c46066"
+  },
+  {
+    "path": "01_Modules/LED_Patterns.c",
+    "bytes": 1361,
+    "sha256": "f27a28c6c3d1190bdb6ebc080c58c35bf844e6a9a612c104d03bd6cc359deaaa"
+  },
+  {
+    "path": "01_Modules/Motor_MultiSpeed.c",
+    "bytes": 685,
+    "sha256": "0246b68e712749d8d8a8903f6123c31200176412c0505cdca943132d93fb77a0"
+  },
+  {
+    "path": "01_Modules/MultiKey_Combo.c",
+    "bytes": 2009,
+    "sha256": "579a30172270ca2a70dc09373b873d469cde1491c354808f56479079053832ca"
+  },
+  {
+    "path": "01_Modules/PWM_SoftStart.c",
+    "bytes": 1241,
+    "sha256": "50fa8fdf7215eb7b01f7a30bb08f8ddf6ea6dcf79e19e793b60b9f476310d87b"
+  },
+  {
+    "path": "01_Modules/Protection_Overcurrent.c",
+    "bytes": 1987,
+    "sha256": "fe87d107ad64d6dce99a986365e1d0c0503998db64ebbb409d93c1813adf8a2f"
+  },
+  {
+    "path": "01_Modules/README.md",
+    "bytes": 6455,
+    "sha256": "f9f08c533fb91db35acd4a5b962de61fb9f19ac0fa729f15537a7682088944f0"
+  },
+  {
+    "path": "01_Modules/Sleep_Wakeup_LowPower.c",
+    "bytes": 1388,
+    "sha256": "4003910b987512b839abf55cf4dd80ebb247d50e5b6709dceea0ad38d3e213c9"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 5812,
+    "sha256": "69d58674b4ddbb9fd5450feb7ea92b60eba08bc5be3db298a7dfb0953665ae33"
+  },
+  {
+    "path": "Add-Chip.ps1",
+    "bytes": 448,
+    "sha256": "d9ed3e9bfef9da21d70364488d504b7cdd49a3bf7004d33d9a55e88226bacabf"
+  },
+  {
+    "path": "Backup.ps1",
+    "bytes": 365,
+    "sha256": "3f61f77562465999bcb0d45522380d982353c04262c47ce8dcc1208df5dc2071"
+  },
+  {
+    "path": "Build.ps1",
+    "bytes": 306,
+    "sha256": "300a11a391ba02981e8cb26d80034f31f8c51520dcb722fd7a345377beacebe0"
+  },
+  {
+    "path": "Build_Demo.cmd",
+    "bytes": 426,
+    "sha256": "e1a9563ed7a3e44eca6a74eacb9b925a553e226d952fb4c2cfaea5ecb528376d"
+  },
+  {
+    "path": "CLAUDE.md",
+    "bytes": 5812,
+    "sha256": "69d58674b4ddbb9fd5450feb7ea92b60eba08bc5be3db298a7dfb0953665ae33"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 1388,
+    "sha256": "f8e626d8a97952fc4af34bbcf31fba88dbee02f15ccf534eaae3382c61444745"
+  },
+  {
+    "path": "Export-OpenSource.ps1",
+    "bytes": 207,
+    "sha256": "6a0f33bed172d9a8aca9ad3d12adaf802f6fdde084dc19a26bb354f9ed4cafa6"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1084,
+    "sha256": "203544f87748a6560cfb1e055e57cd3d3e680c2bc0d96c1d3b7af7579cf4d87a"
+  },
+  {
+    "path": "New-Project.ps1",
+    "bytes": 3506,
+    "sha256": "bd685eaa8f1178685b6919a8ce5f6db069b5f696fe3bd43121bcb86f8daf11e7"
+  },
+  {
+    "path": "Package-Project.ps1",
+    "bytes": 273,
+    "sha256": "617e877438a626224efe5c2d30712b88292ee349db32f17b23d4c47fc3df4dfb"
+  },
+  {
+    "path": "README.en.md",
+    "bytes": 5899,
+    "sha256": "c4cda41a97c5bd48f88c682c7b44f55b74ece5617ddb4d11141660da1d82294f"
+  },
+  {
+    "path": "README.md",
+    "bytes": 4888,
+    "sha256": "251c8c7c95ad346f80a484f6ee5052358d072697c8f649f32a509e1115bda41f"
+  },
+  {
+    "path": "Repair-ProjectPaths.ps1",
+    "bytes": 308,
+    "sha256": "00def449ef59ad7349379564fb9dd17b7c1f369d6f1c9f6704b18ec30174d983"
+  },
+  {
+    "path": "SECURITY.md",
+    "bytes": 1041,
+    "sha256": "64c31849ddbf9d7a035e673363580e8848edf65810233a65641c4022e6fe421a"
+  },
+  {
+    "path": "Setup.ps1",
+    "bytes": 527,
+    "sha256": "61aa394f6f7c899e724cc3ada80af775d52603855e58cfccd3787bc9cb215362"
+  },
+  {
+    "path": "THIRD_PARTY.md",
+    "bytes": 2823,
+    "sha256": "643bc304b825a6118a4c5f03807c111673007fe7bf703802e63488525bcafaaf"
+  },
+  {
+    "path": "docs/PUBLISH.md",
+    "bytes": 1394,
+    "sha256": "d19c2b9057445cf04f4f8bf8b29fee180daf33b3d83bdcfc49cbf1c76716319e"
+  },
+  {
+    "path": "docs/SETUP.md",
+    "bytes": 2456,
+    "sha256": "69150a9a22c937ee57e542935f5905f4af9b773a5df53c44da28b361753210f7"
+  },
+  {
+    "path": "docs/VERIFICATION.md",
+    "bytes": 2662,
+    "sha256": "97d929055890ee49817b059a5ffe38ca4a7892183d6a2bc386b9edc6b1786eab"
+  },
+  {
+    "path": "examples/ChipFlowProbe/Bench_Results.md",
+    "bytes": 621,
+    "sha256": "e1aa7b4dbbf4e5f08342311be786cc95619ce6426775750515c0276287c30b8a"
+  },
+  {
+    "path": "examples/ChipFlowProbe/Project_Profile.json",
+    "bytes": 1222,
+    "sha256": "54fe8f581386ec18cc64a2595ffb8418d673d6e79ca141d168f5b92a16bac3b0"
+  },
+  {
+    "path": "examples/ChipFlowProbe/README_For_Engineer.md",
+    "bytes": 2069,
+    "sha256": "ed5169f3fbbf26fa2df0d5db35721bbfa18bcffc4c3186f333c045be5313223a"
+  },
+  {
+    "path": "examples/ChipFlowProbe/Recipe.json",
+    "bytes": 144,
+    "sha256": "58c0a30ba300d6a2215dde3582c9c166c88eebe572124c47908e79cc26a6e773"
+  },
+  {
+    "path": "examples/ChipFlowProbe/behavior_tests.py",
+    "bytes": 1186,
+    "sha256": "fe3143ca4afc88e8dfd3dcc096bb71705e9270a6ce94ddd0ae43a636ecb5f5a8"
+  },
+  {
+    "path": "examples/ChipFlowProbe/main.c",
+    "bytes": 372,
+    "sha256": "9f6259669c205f423b1ded6ac0adb8912e975f3992d155207bb4e40c25c8a0b2"
+  },
+  {
+    "path": "examples/ThreeModeDemo/Bench_Results.md",
+    "bytes": 621,
+    "sha256": "e1aa7b4dbbf4e5f08342311be786cc95619ce6426775750515c0276287c30b8a"
+  },
+  {
+    "path": "examples/ThreeModeDemo/Modules/Key_Scan_Debounce.c",
+    "bytes": 1724,
+    "sha256": "623e5968ae902b58d50c2e3d7703bd39cfd4836c4d865299c35aa12922c46066"
+  },
+  {
+    "path": "examples/ThreeModeDemo/Modules/Sleep_Wakeup_LowPower.c",
+    "bytes": 1388,
+    "sha256": "4003910b987512b839abf55cf4dd80ebb247d50e5b6709dceea0ad38d3e213c9"
+  },
+  {
+    "path": "examples/ThreeModeDemo/Project_Profile.json",
+    "bytes": 3206,
+    "sha256": "8bec2ae81a3a55c1702e861df2e9732f21c46543a84e05b9d80dc580d993f5ac"
+  },
+  {
+    "path": "examples/ThreeModeDemo/README_For_Engineer.md",
+    "bytes": 6517,
+    "sha256": "10f96c62d155cfe374ed23c1bf4aeae04c0d422bec1028827b4168eefe710cea"
+  },
+  {
+    "path": "examples/ThreeModeDemo/Recipe.json",
+    "bytes": 159,
+    "sha256": "7949f1d49da345a53d2949a4a04c6036710c5735bf4421ff0b4ab4747f1724d7"
+  },
+  {
+    "path": "examples/ThreeModeDemo/behavior_tests.py",
+    "bytes": 4951,
+    "sha256": "b353eda6954d0dd00555bf8e02ba542c7715deac3129c577bda7f661bc5b6471"
+  },
+  {
+    "path": "examples/ThreeModeDemo/main.c",
+    "bytes": 3123,
+    "sha256": "45abde265f1c65db0b45ff62bb808b1957ac853a954425d8f60ea548f172d0a0"
+  },
+  {
+    "path": "requirements.txt",
+    "bytes": 14,
+    "sha256": "e73d243b8ed5df199fcd88e05ae2a103b9555ec8179b23abbaba1e7963fd7408"
+  }
+]
